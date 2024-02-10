@@ -1,0 +1,163 @@
+header{
+    text-align: center;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:0;
+    margin:0;
+}
+h1{
+    top:0;
+    margin:0;
+    background-color: rgb(151, 57, 175);
+}
+footer{
+    color:white;
+    background-color: rgb(102, 102, 102);
+    margin:0;
+    padding:15px;
+}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: rgb(116, 27, 129);
+}
+
+li{
+    float:left;
+    border-right: 1px solid black;
+}
+
+li:last-child{
+    border-right: none;
+}
+
+li a{
+    display:block;
+    color:white;
+    text-align: center;
+    padding:10px 15px;
+    text-decoration:none;
+}
+.active{
+    color:black;
+}
+
+li a:hover:not(.active){
+    background-color: rgb(97, 29, 161);
+}
+
+.subtitulo{
+    margin:15px;
+    padding:0;
+}
+.contenedor{
+    max-width: 100%;
+    margin:0 auto;
+    padding:20px;
+}
+
+.imagen1{
+    float:left;
+    margin:5px 20px 0 0;
+}
+.imagen2{
+    float:right;
+    margin:20px 0 20px 20px;
+}
+p{
+    font-size: 18px;
+    text-align:justify;
+}
+.tabla{
+    display:flex;
+    justify-content: center;
+    margin:215px;
+}
+table,tr,th,td{
+    border:1px solid black;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+}
+tr:hover{
+    background-color: beige;
+}
+tr::first-line{
+    background-color: silver;
+}
+.texto3{
+    font-size: 1.4em;
+}
+th{
+    background-color: silver;
+}
+
+.videos{
+    border:3px dashed black;
+    margin:20px;
+}
+.espacio{
+    margin:20px;
+}
+
+.galeria{
+    border:2px solid black;
+    display:flex;
+    background-color: bisque;
+    justify-content: center;
+}
+
+.galeria>div{
+    border: 3px solid black;
+    margin:10px;
+    padding:0;
+}
+.centro{
+    align-content: center;
+}
+.abajo{
+    position:fixed;
+    display:bottom;
+}
+.cuadrado{
+    background-color:silver;
+    border-radius: 10px;
+    margin:100px 0;
+    padding:20px;
+    width: 50%;
+    position: relative;
+    left:25%;
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing:border-box;
+    margin:8px;
+}
+
+input[type="submit"]{
+    background-color: rgb(96, 35, 154);
+    width: 80%;
+    padding:15px 20px;
+    margin: 5px 0;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+    color:white;
+    position: relative;
+    left:10%;
+}
+input[type="submit"]:hover{
+    background-color: rgb(126, 48, 199);
+}
+input:focus{
+    background-color: rgb(228, 232, 232);
+}
